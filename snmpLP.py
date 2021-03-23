@@ -7,7 +7,8 @@ import pyfiglet
 ascii_banner = pyfiglet.figlet_format("SMTPLP")
 
 def usage ():
-	print "SMTPLP.py -i <host> -w <wordlist>"
+	print "python SMTPLP.py -i <host> -w <wordlist> -d <domain>"
+	print "Example: python smtpLP.py -i 192.168.0.2 -w rockyou.txt -d domain.com"
 
 parser = argparse.ArgumentParser(description="Do something.")
 requiredNamed = parser.add_argument_group('required named arguments')
