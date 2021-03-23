@@ -1,6 +1,6 @@
 # SNMPLP
 
-Simple user Bruteforce tool for SNMP with not auth required
+Simple user Bruteforce tool for SNMP with not auth required, its written for python2.7
 
 usage:
 
